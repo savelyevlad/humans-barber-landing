@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+:root {
+  --accent-color: #666666;
+  --accent2-color: #888888;
+  --accent3-color: #aaaaaa;
+  --accent4-color: #cccccc;
+  --primary-color: #444444;
+  --dark-text-color: #222222;
+  --gray-text-color: #888888;
+  --button-padding-x: 16px;
+  --button-padding-y: 12px;
+  --font-family-body: 'Lato', sans-serif;
+  --light-text-color: #f5f5f5;
+  --dark-border-color: #292929;
+  --light-border-color: #f0f0f0;
+  --font-family-heading: 'Montserrat', sans-serif;
+  --button-rounded-radius: 8px;
+  --dark-background-color: #000000;
+  --light-background-color: #eeeeee;
+  --medium-background-color: #dddddd;
+  --primary-button-text-color: #ffffff;
+  --secondary-button-bg-color: #bbbbbb;
+  --secondary-button-text-color: #000000;
+  --primary-button-hover-bg-color: #333333;
+  --primary-button-hover-text-color: #ffffff;
+  --secondary-button-hover-bg-color: #999999;
+  --secondary-button-hover-text-color: #000000;
+}
+
+.dark {
+  --primary-color: #aaaaaa;
+  /* Lighter accent for dark mode */
+  --dark-text-color: #f5f5f5;
+  /* Invert text */
+  --gray-text-color: #d1d5db;
+  --light-text-color: #222222;
+  --dark-border-color: #f0f0f0;
+  --light-border-color: #374151;
+  /* Dark gray border */
+  --dark-background-color: #ffffff;
+  --light-background-color: #111827;
+  /* Dark bg */
+  --medium-background-color: #1f2937;
+  --primary-button-text-color: #000000;
+  --bg-color-global: #111827;
+}
+
+body {
+  font-family: var(--font-family-body);
+  @apply bg-white dark:bg-gray-900 text-[var(--dark-text-color)] transition-colors duration-300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+}
+
+.hovered-element {
+  outline: #3871E0 dashed 2px;
+}
+
+.clicked-element {
+  outline: #3871E0 solid 2px;
+}
+
+.code-section {
+  /* Common class wrapper from original site */
+}
