@@ -7,7 +7,7 @@ const Courses = () => {
   return (
     <section className="code-section bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-16 lg:py-24" id="courses">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-[2fr_3fr] gap-12 lg:gap-16 items-center">
           {/* Left: Image */}
           <div className="order-2 lg:order-1 scale-90 origin-center hidden lg:block">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
