@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Courses from './components/Courses';
 import Instructors from './components/Instructors';
+import Gallery from './components/Gallery';
 import Admission from './components/Admission';
 import Location from './components/Location';
 import Footer from './components/Footer';
@@ -24,6 +25,7 @@ function App() {
               <Features />
               <Courses />
               <Instructors />
+              <Gallery />
               <Admission />
               <Location />
               <Footer />

@@ -26,9 +26,9 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
-            <a href="#" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium">{t('gallery')}</a>
             <a href="#courses" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium">{t('courses')}</a>
             <a href="#instructors" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium">{t('instructors')}</a>
+            <a href="#gallery" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium">{t('gallery')}</a>
             <a href="#location" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium">{t('navContact')}</a>
 
             {/* Icon Controls */}
@@ -71,9 +71,9 @@ const Header = () => {
         {/* Mobile Navigation */}
         <div data-landingsite-mobile-menu="" className={`lg:hidden pb-6 border-t border-[var(--light-border-color)] dark:border-gray-700 mt-2 ${isMobileMenuOpen ? '' : 'hidden'}`}>
           <nav className="flex flex-col gap-4 pt-6">
-            <a href="#" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('gallery')}</a>
             <a href="#courses" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('courses')}</a>
             <a href="#instructors" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('instructors')}</a>
+            <a href="#gallery" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('gallery')}</a>
             <a href="#location" className="text-[var(--dark-text-color)] hover:text-[var(--primary-color)] transition-colors duration-300 font-medium py-2" onClick={() => setIsMobileMenuOpen(false)}>{t('navContact')}</a>
 
             {/* Mobile Controls */}

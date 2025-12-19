@@ -53,6 +53,11 @@ export const translations = {
     feature6Title: "Be Human - Nasza Filozofia",
     feature6Desc: "Autentyczna edukacja skoncentrowana na ludziach. Nie tylko technika, ale budowanie relacji i rozwój jako profesjonalisty.",
 
+    // Gallery
+    galleryBadge: "GALERIA",
+    galleryTitle: "Nasza Galeria",
+    gallerySubtitle: "Zobacz efekty pracy naszych instruktorów i uczniów. Prawdziwe strzyżenia, prawdziwe umiejętności.",
+
     // Courses
     availablePrograms: "DOSTĘPNE PROGRAMY",
     ourCourses: "Nasze Kursy\ni Warsztaty",
@@ -160,6 +165,11 @@ export const translations = {
     feature5Desc: "Обучение проводится на польском и русском языках. Все материалы и поддержка доступны на обоих языках.",
     feature6Title: "Be Human - Наша Философия",
     feature6Desc: "Аутентичное, ориентированное на людей образование. Не только техника, но и построение отношений и развитие как профессионала.",
+
+    // Gallery
+    galleryBadge: "ГАЛЕРЕЯ",
+    galleryTitle: "Наша Галерея",
+    gallerySubtitle: "Посмотрите результаты работы наших инструкторов и учеников. Настоящие стрижки, настоящие навыки.",
 
     // Courses
     availablePrograms: "ДОСТУПНЫЕ ПРОГРАММЫ",

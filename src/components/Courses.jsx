@@ -9,9 +9,9 @@ const Courses = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Image */}
-          <div className="order-2 lg:order-1">
+          <div className="order-2 lg:order-1 scale-90 origin-center hidden lg:block">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
-              <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/bff286f8-d0aa-4220-c7fe-8bcfd55f6000/publicContain" alt="Young beautiful female barber with short red hair learning to cut hair in. She is in education training in a barber shop. A young handsome male barber observes her work." className="w-full h-full object-cover" data-media='{"id":"1486391461","src":"iStock","type":"image"}' />
+              <img src="photo_5994743330182904392_y.jpg" className="w-full h-auto object-cover" data-media='{"id":"1486391461","src":"iStock","type":"image"}' />
             </div>
           </div>
 

@@ -31,11 +31,10 @@ const Footer = () => {
           <div>
             <h4 className="font-[var(--font-family-heading)] text-[var(--dark-text-color)] font-bold mb-6">{t('footerQuickLinks')}</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerHome')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerGallery')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerCourses')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerInstructors')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerAdmission')}</a></li>
+              <li><a href="#courses" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerCourses')}</a></li>
+              <li><a href="#instructors" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerInstructors')}</a></li>
+              <li><a href="#gallery" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerGallery')}</a></li>
+              <li><a href="#location" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerContact')}</a></li>
             </ul>
           </div>
 
@@ -43,9 +42,8 @@ const Footer = () => {
           <div>
             <h4 className="font-[var(--font-family-heading)] text-[var(--dark-text-color)] dark:text-white font-bold mb-6">{t('footerMore')}</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerReviews')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerGallery')}</a></li>
-              <li><a href="#" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('footerContact')}</a></li>
+              <li><a href="tel:+48574268809" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">{t('contactPhoneLabel')}</a></li>
+              <li><a href="https://instagram.com/humans_barber_shop" target="_blank" rel="noopener noreferrer" className="text-[var(--gray-text-color)] hover:text-[var(--primary-color)] transition-colors">Instagram</a></li>
             </ul>
           </div>
 
