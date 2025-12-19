@@ -5,12 +5,12 @@ const Gallery = () => {
   const { t } = useLanguage();
 
   const images = [
-    { src: '/IMG_3885.JPG', alt: 'Barber work example 1' },
-    { src: '/IMG_3920.PNG', alt: 'Barber work example 2' },
-    { src: '/IMG_3922.PNG', alt: 'Barber work example 3' },
-    { src: '/IMG_3924.PNG', alt: 'Barber work example 4' },
-    { src: '/IMG_7547.JPG', alt: 'Barber work example 5' },
-    { src: '/IMG_7549 (2).JPG', alt: 'Barber work example 6' },
+    { src: 'IMG_3885.JPG', alt: 'Barber work example 1' },
+    { src: 'IMG_3920.PNG', alt: 'Barber work example 2' },
+    { src: 'IMG_3922.PNG', alt: 'Barber work example 3' },
+    { src: 'IMG_3924.PNG', alt: 'Barber work example 4' },
+    { src: 'IMG_7547.JPG', alt: 'Barber work example 5' },
+    { src: 'IMG_7549 (2).JPG', alt: 'Barber work example 6' },
   ];
 
   return (
