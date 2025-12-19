@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
+import { LOGO_URL } from '../constants';
 
 const Header = () => {
   const { theme, toggleTheme } = useTheme();
@@ -21,7 +22,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex-shrink-0 transition-transform hover:scale-105 duration-300">
-            <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/9c7e845f-73cb-4ba7-bc98-be53686c4000/publicContain" alt="Humans Barber School" className="h-20 py-2" data-logo="" />
+            <img src={LOGO_URL} alt="Humans Barber School" className="h-20 py-2 dark:invert dark:brightness-0 dark:contrast-200" data-logo="" />
           </a>
 
           {/* Desktop Navigation */}

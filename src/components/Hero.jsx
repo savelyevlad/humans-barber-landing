@@ -48,7 +48,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-            <a href="#" className="bg-[var(--primary-color)] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-xl hover:scale-105 w-full sm:w-auto" data-translate="heroCta1">{t('heroCta1')}</a>
+            <a href="#" className="bg-[var(--primary-color)] text-(--primary-button-text-color) px-8 py-4 rounded-lg font-bold text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-xl hover:scale-105 w-full sm:w-auto" data-translate="heroCta1">{t('heroCta1')}</a>
             <a href="#" className="bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 text-[var(--dark-text-color)] px-8 py-4 rounded-lg font-semibold text-lg hover:border-[var(--primary-color)] hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 w-full sm:w-auto" data-translate="heroCta2">{t('heroCta2')}</a>
             <a href="tel:+48574268809" className="bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 text-[var(--dark-text-color)] px-6 py-4 rounded-lg font-semibold text-lg hover:border-[var(--primary-color)] hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-2">
               <i className="fas fa-phone" aria-hidden="true"></i>

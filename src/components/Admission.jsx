@@ -47,19 +47,19 @@ const Admission = () => {
                 <div className="text-[var(--dark-text-color)] font-bold text-lg">{t('duration')}</div>
               </div>
 
-              <div className="bg-gray-50 border border-gray-300 rounded-xl p-6 text-center">
+              <div className="bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-xl p-6 text-center">
                 <i className="fas fa-users text-3xl text-[var(--primary-color)] mb-3" aria-hidden="true"></i>
-                <div className="text-[var(--gray-text-color)] text-sm mb-1">{t('groupSizeLabel')}</div>
-                <div className="text-[var(--dark-text-color)] font-bold text-lg">{t('groupSize')}</div>
+                <div className="text-[var(--gray-text-color)] dark:text-gray-300 text-sm mb-1">{t('groupSizeLabel')}</div>
+                <div className="text-[var(--dark-text-color)] dark:text-white font-bold text-lg">{t('groupSize')}</div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="#" className="bg-[var(--primary-color)] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-xl text-center">
+              <a href="#" className="bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-xl text-center">
                 {t('enrollNow')}
               </a>
-              <a href="tel:+48574268809" className="bg-white border-2 border-gray-300 text-[var(--dark-text-color)] px-8 py-4 rounded-lg font-semibold text-lg hover:border-[var(--primary-color)] hover:bg-gray-50 transition-all duration-300 text-center flex items-center justify-center gap-2">
+              <a href="tel:+48574268809" className="bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 text-[var(--dark-text-color)] dark:text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-[var(--primary-color)] dark:hover:border-(--primary-color) hover:bg-gray-50 dark:hover:bg-gray-700 transition-all duration-300 text-center flex items-center justify-center gap-2">
                 <i className="fas fa-phone" aria-hidden="true"></i>
                 +48 574 268 809
               </a>

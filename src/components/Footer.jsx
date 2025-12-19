@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { useLanguage } from '../context/LanguageContext';
+import { LOGO_URL } from '../constants';
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -12,17 +13,17 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="#" className="inline-block mb-6">
-              <img src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/9c7e845f-73cb-4ba7-bc98-be53686c4000/publicContain" alt="Humans Barber School" className="h-28 py-2" data-logo="" />
+              <img src={LOGO_URL} alt="Humans Barber School" className="h-28 py-2 dark:invert dark:brightness-0 dark:contrast-200" data-logo="" />
             </a>
             <p className="text-[var(--gray-text-color)] text-sm leading-relaxed mb-6">
               {t('footerDescription')}
             </p>
             <div className="flex gap-4">
-              <a href="https://instagram.com/humans_barber_shop" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-200 rounded-lg flex items-center justify-center text-[var(--dark-text-color)] hover:bg-[var(--primary-color)] hover:text-white transition-colors">
-                <i className="fab fa-instagram text-lg" aria-hidden="true"></i>
+              <a href="https://instagram.com/humans_barber_shop" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-[var(--primary-color)]/10 dark:bg-[var(--primary-color)]/20 rounded-lg flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group">
+                <i className="fab fa-instagram text-lg text-[var(--primary-color)] group-hover:text-white transition-colors" aria-hidden="true"></i>
               </a>
-              <a href="tel:+48574268809" className="w-10 h-10 bg-gray-200 rounded-lg flex items-center justify-center text-[var(--dark-text-color)] hover:bg-[var(--primary-color)] hover:text-white transition-colors">
-                <i className="fas fa-phone text-lg" aria-hidden="true"></i>
+              <a href="tel:+48574268809" className="w-10 h-10 bg-[var(--primary-color)]/10 dark:bg-[var(--primary-color)]/20 rounded-lg flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors group">
+                <i className="fas fa-phone text-lg text-[var(--primary-color)] group-hover:text-white transition-colors" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -56,12 +57,16 @@ const Footer = () => {
                 <span className="text-[var(--gray-text-color)] text-sm whitespace-pre-line">{t('footerAddress')}</span>
               </li>
               <li className="flex items-start gap-3">
-                <i className="fas fa-phone text-[var(--primary-color)] mt-1" aria-hidden="true"></i>
-                <a href="tel:+48574268809" className="text-[var(--gray-text-color)] text-sm hover:text-[var(--primary-color)] transition-colors">+48 574 268 809</a>
+                <div className="w-10 h-10 bg-[var(--primary-color)]/10 dark:bg-[var(--primary-color)]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <i className="fas fa-phone text-[var(--primary-color)]" aria-hidden="true"></i>
+                </div>
+                <a href="tel:+48574268809" className="text-[var(--gray-text-color)] text-sm hover:text-[var(--primary-color)] transition-colors mt-2">+48 574 268 809</a>
               </li>
               <li className="flex items-start gap-3">
-                <i className="fab fa-instagram text-[var(--primary-color)] mt-1" aria-hidden="true"></i>
-                <a href="https://instagram.com/humans_barber_shop" target="_blank" rel="noopener noreferrer" className="text-[var(--gray-text-color)] text-sm hover:text-[var(--primary-color)] transition-colors">@humans_barber_shop</a>
+                <div className="w-10 h-10 bg-[var(--primary-color)]/10 dark:bg-[var(--primary-color)]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <i className="fab fa-instagram text-[var(--primary-color)]" aria-hidden="true"></i>
+                </div>
+                <a href="https://instagram.com/humans_barber_shop" target="_blank" rel="noopener noreferrer" className="text-[var(--gray-text-color)] text-sm hover:text-[var(--primary-color)] transition-colors mt-2">@humans_barber_shop</a>
               </li>
             </ul>
           </div>

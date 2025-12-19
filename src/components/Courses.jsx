@@ -87,7 +87,7 @@ const Courses = () => {
               </span>
             </div>
 
-            <a href="#" className="inline-flex items-center gap-2 bg-[var(--primary-color)] text-white px-8 py-4 rounded-lg font-bold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-lg">
+            <a href="#" className="inline-flex items-center gap-2 bg-[var(--primary-color)] text-[var(--primary-button-text-color)] px-8 py-4 rounded-lg font-bold hover:bg-[var(--primary-button-hover-bg-color)] transition-all duration-300 hover:shadow-lg">
               {t('seeAllPrograms')}
               <i className="fas fa-arrow-right" aria-hidden="true"></i>
             </a>
